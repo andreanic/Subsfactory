@@ -109,9 +109,7 @@ var checkNewElement = function(){
     numberOfChilder = 0;
     clearList();
     initFavourite(result);
-    return;
   }
-  return;
 }
 
 exports.initFavourite = initFavourite;
