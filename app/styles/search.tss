@@ -1,0 +1,65 @@
+"#searchWin" : {
+  backgroundColor: "#14141f",
+}
+
+"#mainContainer": {
+  layout: "vertical",
+}
+
+".container" : {
+  top: 5,
+  layout:"horizontal",
+  height: 40,
+}
+
+"#lbl" : {
+  top: 0,
+  height: 40,
+  color: "white",
+  width:Ti.UI.FILL,
+  textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+  font: {
+    fontSize: 18,
+  }
+}
+
+"#searchBar" : {
+  top: 5,
+  height: 40,
+  width: "80%",
+  hintText: "Put your text here..."
+}
+
+"#searchButton" : {
+  width: 35,
+  height: 35,
+  left: 10,
+  image: "/images/searchXXL.png",
+  color: "#0099ff",
+  borderColor:"#f9f9f9",
+  borderRadius: 15,
+  backgroundColor: "white"
+}
+
+"#resultContainer" : {
+  top: 15,
+  height: Ti.UI.FILL,
+}
+
+"#download" : {
+  visible: false,
+  backgroundColor: "#14141f",
+}
+
+"#progress" : {
+  message: "Loading data...",
+  width: "50%",
+  height: 25,
+  left: "25%",
+  right: "25%",
+  top: "45%"
+}
+
+"#result" : {
+  layout:"vertical",
+}

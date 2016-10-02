@@ -1,0 +1,20 @@
+<Alloy>
+	<Window id="searchWin">
+		<View id="mainContainer">
+			<View class="container">
+				<Label id="lbl">What Are You Looking For?</Label>
+			</View>
+			<View class="container">
+				<SearchBar id="searchBar" showCancel="false"/>
+				<ImageView id="searchButton"></ImageView>
+			</View>
+			<View id="resultContainer">
+				<ScrollView id="result">
+				</ScrollView>
+				<View id="download">
+					<ProgressBar id="progress"/>
+				</View>
+			</View>
+		</View>
+	</Window>
+</Alloy>

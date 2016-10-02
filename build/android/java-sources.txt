@@ -1,0 +1,7 @@
+"C:/Users/Andre/Desktop/Subfactory/build/android/gen/android/support/v7/appcompat/R.java"
+"C:/Users/Andre/Desktop/Subfactory/build/android/gen/android/support/v7/cardview/R.java"
+"C:/Users/Andre/Desktop/Subfactory/build/android/gen/it/unict/dmi/R.java"
+"C:/Users/Andre/Desktop/Subfactory/build/android/gen/it/unict/dmi/SubfactoryActivity.java"
+"C:/Users/Andre/Desktop/Subfactory/build/android/gen/it/unict/dmi/SubfactoryAppInfo.java"
+"C:/Users/Andre/Desktop/Subfactory/build/android/gen/it/unict/dmi/SubfactoryApplication.java"
+"C:/Users/Andre/Desktop/Subfactory/build/android/gen/ti/modules/titanium/ui/R.java"

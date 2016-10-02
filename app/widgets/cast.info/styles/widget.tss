@@ -1,0 +1,4 @@
+".list":{
+  backgroundColor: "#14141f",
+  layout:"vertical"
+}

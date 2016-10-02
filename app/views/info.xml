@@ -1,0 +1,38 @@
+<Alloy>
+	<TabGroup id="tab">
+    <Tab id="tab1" title="Plot">
+			<Window id="infoWin" title="Plot">
+				<View id="down">
+					<ProgressBar id="download"/>
+				</View>
+				<View id="container" class="container">
+					<View id="imageContainer">
+						<ImageView id="image"></ImageView>
+						<Label id="title" class="title"></Label>
+					</View>
+					<Label id="plotTitle" class="txt">Plot</Label>
+					<ScrollView id="plot">
+						<Label id="plotTxt" class="txt"></Label>
+					</ScrollView>
+					<View id="btnContainer">
+						<Button id="favourite">Add Favourite</Button>
+					</View>
+				</View>
+			</Window>
+    </Tab>
+    <Tab id="tab2" title="Seasons' List">
+			<Window id="seasonWin" title="Seasons' List">
+				<View id="container2" class="container">
+					<Require type="widget" src="season.info" id="season"/>
+			  </View>
+			</Window>
+    </Tab>
+		<Tab id="tab2" title="Cast">
+			<Window id="castWin" title="Cast">
+				<View id="container3" class="container">
+					<Require type="widget" src="cast.info" id="cast"/>
+			  </View>
+			</Window>
+    </Tab>
+	</TabGroup>
+</Alloy>

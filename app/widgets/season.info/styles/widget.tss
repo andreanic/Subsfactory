@@ -1,0 +1,16 @@
+".list":{
+  backgroundColor: "#14141f",
+  layout:"vertical"
+}
+
+"#season": {
+  layout:"vertical"
+}
+
+"#seasonListLbl":{
+  textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+  height:40,
+  font: {
+    fontSize: 30
+  },
+}

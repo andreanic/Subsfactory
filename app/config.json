@@ -1,0 +1,18 @@
+{
+    "global": {},
+    "env:development": {},
+    "env:test": {},
+    "env:production": {},
+    "os:android": {},
+    "os:blackberry": {},
+    "os:ios": {},
+    "os:mobileweb": {},
+    "os:windows": {},
+    "dependencies": {
+        "com.prodz.tiflexigrid": "1.2",
+        "it.dmi.unict": "1.0",
+        "cast.info": "1.0",
+        "season.info": "1.0",
+        "favourite.info": "1.0"
+    }
+}

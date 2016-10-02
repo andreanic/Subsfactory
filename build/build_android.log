@@ -1,0 +1,24 @@
+
+2016-10-01 18:58:47
+
+Operating System
+  Name                        = Microsoft Windows 10 Pro
+  Version                     = 10.0.14393
+  Architecture                = 64bit
+  # CPUs                      = 8
+  Memory                      = 17120186368
+
+Node.js
+  Node.js Version             = 4.2.4
+  npm Version                 = 2.14.12
+
+Titanium CLI
+  CLI Version                 = 5.0.9
+
+Titanium SDK
+  SDK Version                 = 4.1.0.GA
+  SDK Path                    = C:\ProgramData\Titanium\mobilesdk\win32\4.1.0.GA
+  Target Platform             = android
+
+Command
+  C:\Program Files\nodejs\node.exe C:\Users\andrea\AppData\Roaming\npm\node_modules\titanium\bin\titanium build -p android --build-only

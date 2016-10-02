@@ -1,0 +1,25 @@
+<Alloy>
+	<TabGroup id="mainTab">
+		<Tab id="main" title="Last Subs">
+			<Window id="fgWin">
+				 <Require type="widget" src="com.prodz.tiflexigrid" id="fg"/>
+				 <View id="downloadView">
+		 				<ProgressBar id="download"/>
+		 		 </View>
+			</Window>
+		</Tab>
+		<Tab id="favourite" title="Favourite">
+			<Window id="favouriteWin">
+				<Require type="widget" src="favourite.info" id="favouriteList"/>
+			</Window>
+		</Tab>
+		<!--<Tab id="subscribe" title="Subscribe Push">
+			<Window id="subscribeWin">
+				<View>
+					<Button id="subscribeBtn">Subscribe</Button>
+					<Button id="sendPushBtn">Send a Push</Button>
+				</View>
+			</Window>
+		</Tab>-->
+	</TabGroup>
+</Alloy>

@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="seasonList" class="list">
+		<ScrollView id="season">
+		</ScrollView>
+	</View>
+</Alloy>

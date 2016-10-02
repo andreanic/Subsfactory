@@ -1,0 +1,27 @@
+<Alloy>
+	<Window id="infoWin">
+		<Require type="widget" src="it.dmi.unict" id="menu"/>
+		<View id="container">
+			<View id="imageContainer">
+				<ImageView id="image"></ImageView>
+				<Label id="title"></Label>
+			</View>
+			<View id="someInfo">
+				<Label id="episodeTitle"></Label>
+				<Label id="author"></Label>
+				<Label id="date"></Label>
+			</View>
+			<View id="btnContainer">
+				<View id="infoBtnContainer" class="container">
+					<Button id="infoBtn">Info</Button>
+				</View>
+				<View id="downloadBtnContainer" class="container">
+					<Button id="downloadBtn">Download</Button>
+				</View>
+			</View>
+		</View>
+		<View id="down">
+			<ProgressBar id="download"/>
+		</View>
+	</Window>
+</Alloy>

@@ -1,0 +1,86 @@
+
+".container" : {
+  layout:"vertical",
+  backgroundColor: "#14141f",
+  visible: false
+}
+
+".txt": {
+  color: "white",
+  font: {
+    fontSize: 15
+  },
+  backgroundColor: "#14141f",
+  textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT
+}
+
+"#imageContainer": {
+  top: 25,
+  height:"35%",
+  layout: "vertical",
+  backgroundColor: "#14141f"
+}
+
+".title": {
+  height: 30,
+  font: {
+    fontSize: 20
+  },
+  width:Ti.UI.FILL,
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  color:"white"
+}
+
+"#plot": {
+  top: 10,
+  height:"30%",
+}
+
+"#image": {
+  width: "30%",
+  height: "80%"
+}
+
+"#plotTitle": {
+  top: 10,
+  width:Ti.UI.FILL,
+  textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+}
+
+"#plotTxt":{
+  top: 0,
+}
+
+"#download": {
+  message: "Loading data...",
+  width: "50%",
+  height: 25,
+  left: "25%",
+  right: "25%",
+  top: "45%"
+}
+
+"#down" : {
+  backgroundColor: "#14141f"
+}
+
+"Button": {
+  width: 100,
+  height: 50,
+  color: "#0099ff",//Blu chiaro
+  borderColor:"#f9f9f9",//Grigio chiaro
+  borderRadius: 15,
+  backgroundColor: "white"
+}
+
+"#btnContainer": {
+  height: "20%",
+  top: "5%",
+  bottom: 10,
+  layout: "horizontal"
+}
+
+"#favourite":{
+  top: "10%",
+  left: "35%"
+}
